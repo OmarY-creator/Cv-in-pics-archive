@@ -1,0 +1,12 @@
+# Core Libraries for File Operations and Utilities
+tqdm>=4.64.0  # For the progress bar
+Pillow>=9.3.0 # Pillow is a common dependency for many image libraries
+
+# AI/Machine Learning
+ultralytics>=8.0.0  # The framework for YOLOv8 models
+
+# Metadata Extraction
+exifread>=3.0.0     # For reading EXIF and GPS tags from image files
+
+# Offline Geocoding
+reverse-geocoder>=1.5.1  # For looking up city names from GPS coordinates offline

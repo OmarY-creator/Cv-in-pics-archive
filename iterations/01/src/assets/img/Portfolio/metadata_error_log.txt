@@ -1,0 +1,2464 @@
+197527d6-4c6d-49e2-a469-853852c932bd.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+63c198fd-6109-4029-8503-6ea2f93efd20.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+a9183e48-06b8-45ef-829b-60488872816b.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+cc460971-dd1d-4631-988e-e3d34aeaf98f.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_0110.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_0829.PNG (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1015.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1557.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1558.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1618.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1619.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1630.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1634.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1635.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_2442.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_2445.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_3542.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_3559.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_4597.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+197527d6-4c6d-49e2-a469-853852c932bd.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+63c198fd-6109-4029-8503-6ea2f93efd20.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+a9183e48-06b8-45ef-829b-60488872816b.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+cc460971-dd1d-4631-988e-e3d34aeaf98f.jpg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_0110.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_0829.PNG (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1015.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1557.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1558.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1618.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1619.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1630.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1634.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_1635.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_2442.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_2445.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_3542.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_3559.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_4597.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_4927.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5149(1).jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5149.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5153(1).jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5153.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5333.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5353.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5600.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5636.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5637.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5828.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5829.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_5874.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6016.PNG (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6243.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6293.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6295.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6298.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6299.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6325.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6351.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6354.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_6355.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_7692(1).jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_7692.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_7703(1).PNG (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_8069.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_8070.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_8086.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_8087.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9098.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9099.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9105.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9106.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9107.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9108.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9109.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+IMG_9382.jpeg (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
+Omar Delivery.PNG (AI/Processing Error): 'Probs' object has no attribute 'top'. See valid attributes below.
+A class for storing and manipulating classification probabilities.
+
+    This class extends BaseTensor and provides methods for accessing and manipulating classification probabilities,
+    including top-1 and top-5 predictions.
+
+    Attributes:
+        data (torch.Tensor | np.ndarray): The raw tensor or array containing classification probabilities.
+        orig_shape (tuple | None): The original image shape as (height, width). Not used in this class.
+        top1 (int): Index of the class with the highest probability.
+        top5 (list[int]): Indices of the top 5 classes by probability.
+        top1conf (torch.Tensor | np.ndarray): Confidence score of the top 1 class.
+        top5conf (torch.Tensor | np.ndarray): Confidence scores of the top 5 classes.
+
+    Methods:
+        cpu: Return a copy of the probabilities tensor on CPU memory.
+        numpy: Return a copy of the probabilities tensor as a numpy array.
+        cuda: Return a copy of the probabilities tensor on GPU memory.
+        to: Return a copy of the probabilities tensor with specified device and dtype.
+
+    Examples:
+        >>> probs = torch.tensor([0.1, 0.3, 0.6])
+        >>> p = Probs(probs)
+        >>> print(p.top1)
+        2
+        >>> print(p.top5)
+        [2, 1, 0]
+        >>> print(p.top1conf)
+        tensor(0.6000)
+        >>> print(p.top5conf)
+        tensor([0.6000, 0.3000, 0.1000])
+    
